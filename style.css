@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  background:  #00a8f3; /*#32a875*/ /* #328ba8; */ /* no-repeat center url("images/Polaroid_ava.jpg"); */
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 1px #333, -1px -1px 0 #0ff;
+}
+
+.site-header-ava {
+  margin: auto;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.site-header-ava img {
+  height: 150px;
+  width: 150px;
+}
+
+h1 {
+	text-align: right;
+  margin-right: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+span {
+  color: #000000;
+}
+
+.site-navigation {
+  border: #000000 solid 1px;
+  background-color: skyblue;
+  margin-bottom: 70px;
+}
+
+.site-navigation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.site-navigation li {
+	display: inline-block;
+	padding-left: 200px;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.site-content p {
+  text-align: left;
+}
+
+.site-header-blockquote {
+  color: white;
+  font-size: 18px;
+  width: 35%;
+  margin-top: -150px;
+}
+
+.site-header-blockquote span {
+  margin-left: 160px; 
+  color: #ffffff;
+}
+
+.site-contacts {
+  margin: 0 0 160px;
+  padding: 32px 0 32px;
+}
+
+.site-contacts a {
+  margin-left: 56px;
+  color: #288be6;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+main p {
+	text-align: center;
+}
+
+.site-footer {
+  position: absolute;
+  min-width: 960px;
+  width: 100%;
+  height: 70px;
+  background-color: skyblue; /*#328ba8;*/
+  color: #000000;
+  margin-top: 15px;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+.site-footer a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+table {
+  /*border: 1px solid red;*/
+  width: 861px;
+  margin: auto;
+}
+
+.polar {
+  width: 287px;
+  height: 287px;
+  border: 1px solid grey;
+  margin: 15px;
+}
+
+.polar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.polar a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.figure-gallery-page {
+  text-align: center;
+}
+
+.img-gallery-page {
+  width: 100%;
+  height: 100%;
+}
+
+/*.polar figcaption {*/
+  /*width: 187px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid green;
+}*/
+
+/*.gallery {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+}*/
+
+/*.polar:nth-child(n+1) {
+  transform: rotate(-5deg);
+}
+
+.polar:nth-child(2n+1) {
+  transform: rotate(10deg);
+}
+
+.polar:nth-child(3n+1) {
+  transform: rotate(-15deg);
+}*/
