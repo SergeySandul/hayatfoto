@@ -86,7 +86,8 @@ span {
 
 .site-header-blockquote {
   color: white;
-  font-size: 120%;
+  font-size: 1.8vw;
+  white-space: nowrap;
   width: 35%;
   margin-top: -150px;
 }
