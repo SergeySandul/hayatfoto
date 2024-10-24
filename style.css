@@ -106,13 +106,11 @@ section {
   border: #f2f4f6 solid 1px;
 }
 
-main {
-  height: 100%;
-}
 
 .site-footer {
   position: sticky; /* Привязка подвала к низу окна браузера */ 
   bottom: 0; /* Привязка подвала к низу окна браузера */
+  vertical-align: bottom;
   min-width: 960px;
   width: 100%;
   height: 70px;
