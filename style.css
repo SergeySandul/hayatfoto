@@ -106,6 +106,10 @@ section {
   border: #f2f4f6 solid 1px;
 }
 
+main {
+  height: 100%;
+}
+
 .site-footer {
   position: sticky; /* Привязка подвала к низу окна браузера */ 
   bottom: 0; /* Привязка подвала к низу окна браузера */
